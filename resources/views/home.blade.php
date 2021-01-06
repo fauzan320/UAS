@@ -39,6 +39,15 @@
     </div>
     <div class="container mt-5 mb-5">
         <h5><i class="fa fa-shopping-cart"></i> Nikmati Produk-Produk kami dan Terimakasih atas Kunjungannya <i class="fa fa-smile is-fade"></i></h5>
+        
+        <p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        Copyright &copy;<script>document.write(new Date().getFullYear());</script> Pemrograman berbasis Framework <i class="fa fa-star" aria-hidden="true"></i></a>
+        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        <a href="https://instagram.com/pisangin_ajaa?igshid=dc5j4580olwz"> Pisangin Aja</i></a>
+        </p>
+        
     </div>
 </div>
+
+
 @endsection
