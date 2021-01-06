@@ -51,7 +51,7 @@
         <div class="col-md-12 mt-2">
             <div class="card">
                 <div class="card-body">
-                    <h4><i class="fa fa-edit"></i> Edit Profile</h4>
+                    <h4><i class="fa fa-edit"></i> Edit Profile</h4><hr>
                     <form method="POST" action="{{ url('profile') }}">
                         @csrf
 

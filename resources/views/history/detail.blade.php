@@ -62,17 +62,17 @@
                                 </tr>
                                 @endforeach
                                 <tr>
-                                    <td colspan="4" align="right"><strong>Total Harga : </strong></td>
+                                    <td colspan="5" align="right"><strong>Total Harga : </strong></td>
                                     <td>Rp. {{ number_format($pesanan->total_harga)}}</td>
                                     
                                 </tr>
                                 <tr>
-                                    <td colspan="4" align="right"><strong>Kode Unik :</strong></td>
+                                    <td colspan="5" align="right"><strong>Kode Unik :</strong></td>
                                     <td align="left"><strong>{{ number_format($pesanan->kode) }}</strong></td>
                                     
                                 </tr>
                                  <tr>
-                                    <td colspan="4" align="right"><strong>Total yang harus ditransfer :</strong></td>
+                                    <td colspan="5" align="right"><strong>Total yang harus ditransfer :</strong></td>
                                     <td align="left"><strong>Rp. {{ number_format($pesanan->kode+$pesanan->total_harga) }}</strong></td>
                                     
                                 </tr>

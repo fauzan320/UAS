@@ -19,6 +19,13 @@
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <!-- Favicon -->
+	<link href="public/template/img/favicon.ico" rel="shortcut icon"/>
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700" rel="stylesheet">
+
+    
 </head>
 <body>
     <div id="app">
@@ -66,6 +73,7 @@
                                     @if(!empty($notif))
                                     <span class="badge badge-danger">{{ $notif }}</span>
                                     @endif
+                                    Keranjang
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
@@ -106,5 +114,6 @@
 
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     @include('sweet::alert')
+    
 </body>
 </html>

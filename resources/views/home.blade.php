@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
 @section('content')
+{{-- <!-- Hero section -->
+<section class="page-top-section set-bg" data-setbg="{{ url('template/img/page-top-bg.jpg') }}">
+    <div class="container">
+        <h2>Produk Pisangin_Ajaa</h2>
+    </div>
+</section>
+<!-- Hero section end --> --}}
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-12 mb-4">
