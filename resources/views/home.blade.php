@@ -9,9 +9,13 @@
 </section>
 <!-- Hero section end --> --}}
 {{-- <img src="{{ url('template/img/page-top-bg.jpg') }}"> --}}
+
+{{-- <div class="bg-image">
+    <img src="{{ url('template/img/page-top-bg.jpg') }}">
+</div> --}}
 <div class="container">
     <div class="row justify-content-center">
-        <div class="col-md-12 mb-4">
+        <div class="col-md-12 mb-4 position-top" >
             <img src="{{ url('images/LOGO.png') }}" class="rounded mx-auto d-block" class="" width="150" alt="">
         </div>
         @foreach ($barangs as $barang)
