@@ -33,5 +33,8 @@
         </div>
         @endforeach
     </div>
+    <div class="container mt-5 mb-5">
+        <h5><i class="fa fa-shopping-cart"></i> Nikmati Produk-Produk kami dan Terimakasih atas Kunjungannya <i class="fa fa-smile is-fade"></i></h5>
+    </div>
 </div>
 @endsection
